@@ -538,9 +538,13 @@ footer span {
 
 @media (max-width: 972px) {
 
-    h2,
-    h3 {
+    h2{
         font-size: 35px;
+    }
+
+    h3 {
+        font-size: 18px;
+
     }
 
     body {
