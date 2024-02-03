@@ -21,6 +21,7 @@
 
 ul {
     margin-bottom: 0;
+    padding-left: 0;
 }
 
 html {
@@ -58,6 +59,8 @@ header {
     transition: 0.3s;
 }
 
+
+
 h2 {
     font-size: 24px;
     text-transform: uppercase;
@@ -65,8 +68,16 @@ h2 {
     margin-bottom: 0;
 }
 
+#me {
+    margin-bottom: 27px;
+}
+
+.desc h3 {
+    margin-top: 27px;
+}
+
 h3 {
-    font-size: 24px;
+    font-size: 14px;
     font-style: normal;
     font-weight: bold;
 }
@@ -75,6 +86,7 @@ p {
     line-height: 27px;
     letter-spacing: 0.07em;
     font-size: 12px;
+    margin-bottom: 0;
 }
 
 #dlogo {
