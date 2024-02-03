@@ -145,7 +145,6 @@ a:hover {
 .navbar-toggler {
     display: none;
     height: min-content;
-    margin: 0 -10px 0 0;
     cursor: pointer;
     transition: 1s;
 }
@@ -571,7 +570,7 @@ footer span {
     }
 
     .nav-mobile {
-        margin-top: 102px;
+        margin-top: 72px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -680,7 +679,16 @@ footer span {
         background-color: white;
     }
 
+    .nav-mobile {
+        background-color: #1b1b1b;
+    }
+
     .nav-link {
         color: white;
+    }
+
+    input:checked~header {
+        background-color: #1b1b1b;
+        ;
     }
   }
