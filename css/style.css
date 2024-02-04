@@ -505,6 +505,13 @@ video {
     justify-content: space-evenly;
 }
 
+.desc li {
+    line-height: 27px;
+    letter-spacing: 0.07em;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
 .desc p {
     text-align: justify;
 }
