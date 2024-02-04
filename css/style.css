@@ -505,6 +505,11 @@ video {
     justify-content: space-evenly;
 }
 
+iframe {
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+
 .desc li {
     line-height: 27px;
     letter-spacing: 0.07em;
