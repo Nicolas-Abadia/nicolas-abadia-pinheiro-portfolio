@@ -597,6 +597,14 @@ footer span {
     cursor: pointer;
 }
 
+@media (max-width: 650px) {
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
 
 @media (max-width: 972px) {
 
