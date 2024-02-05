@@ -6,7 +6,7 @@ document.querySelectorAll('.column img').forEach(image => {
         // Se encontrou um elemento correspondente, exibe ele e esconde os outros
         if (popup) {
             popup.style.display = 'flex';
-            popup.querySelector('img').src = image.getAttribute('src');
+            
             
         }
         document.querySelector('body').style.overflow = 'hidden';
