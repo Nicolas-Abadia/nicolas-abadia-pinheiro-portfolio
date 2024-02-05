@@ -566,7 +566,7 @@ video {
 }
 
 
-.popup-img img {
+.popup-img img, video{
     border-radius: 8px;
     width: 65%;
     object-fit: cover;
