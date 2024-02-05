@@ -578,7 +578,7 @@ video {
         right: 16px;
     }
 
-    .popup-img img {
+    .popup-img img, video {
         width: 90%;
         height: auto;
     }
