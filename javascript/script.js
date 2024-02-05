@@ -7,7 +7,6 @@ document.querySelectorAll('.column img').forEach(image => {
         if (popup) {
             popup.style.display = 'flex';
             
-            
         }
         document.querySelector('body').style.overflow = 'hidden';
         
