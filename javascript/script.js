@@ -7,6 +7,11 @@ document.querySelectorAll('.column img').forEach(image => {
         if (popup) {
             popup.style.display = 'flex';
             popup.querySelector('img').src = image.getAttribute('src');
+            document.querySelectorAll('.popup-img').forEach(p => {
+                if (p !== popup) {
+                    p.style.display = 'none';
+                }
+            });
         }
         document.querySelector('body').style.overflow = 'hidden';
         
@@ -18,6 +23,7 @@ document.querySelectorAll('.popup-img span').forEach(span => {
         let popup = span.closest('.popup-img');
         // Esconde esse elemento
         popup.style.display = 'none';
+        span.parentElement.style.display = 'none';
         
         document.querySelector('body').style.overflow = 'auto';
     }
