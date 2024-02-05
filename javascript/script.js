@@ -7,12 +7,7 @@ document.querySelectorAll('.column img').forEach(image => {
         if (popup) {
             popup.style.display = 'flex';
             popup.querySelector('img').src = image.getAttribute('src');
-            document.querySelectorAll('.popup-img').forEach(p => {
-                if (p !== popup) {
-                    p.style.display = 'none';
-                }
-            });
-        }
+            
         document.querySelector('body').style.overflow = 'hidden';
         
     }
