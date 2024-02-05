@@ -18,7 +18,7 @@ document.querySelectorAll('.popup-img span').forEach(span => {
         let popup = span.closest('.popup-img');
         // Esconde esse elemento
         popup.style.display = 'none';
-        span.parentElement.style.display = 'none';
+     
         
         document.querySelector('body').style.overflow = 'auto';
     }
