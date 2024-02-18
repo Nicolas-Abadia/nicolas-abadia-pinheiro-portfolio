@@ -72,7 +72,7 @@ h2 {
     margin-bottom: 27px;
 }
 
-.desc h3 {
+.about h3 {
     margin-top: 27px;
 }
 
@@ -396,6 +396,16 @@ main {
     padding: 0px 50px;
 }
 
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 0px 50px;
+}
+
 .h2-banner {
     margin-top: 230px;
 }
@@ -699,7 +709,6 @@ footer span {
 
     h3 {
         font-size: 18px;
-
     }
 
     body {
