@@ -16,6 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="/css/style.css">
     
+
     <title>Nicolas Abadia Pinheiro | Portfolio</title>
 </head>
 
@@ -28,14 +29,13 @@
             <img id="llogo" class="img-logotipo" src="/assets/SVGS/favicon.svg" alt="" media="(prefers-color-scheme: light)">
             <img id="dlogo" class="img-logotipo" src="/assets/SVGS/favicon2.svg" alt="" media="(prefers-color-scheme: dark)">
             <h2>Nicolas Abadia Pinheiro</h2>
-            <p><b>/HOME</b></p>
+            <p><b>/PORTFOLIO</b></p>
         </div>
 
         <nav translate="no">
             <ul class="nav-web">
-                <li><a class="nav-link" id="a_home" href="index.html"><b>Home</b></a></li>
-                <li><a class="nav-link" id="a_portfolio" href="portfolio.html">Portfolio</a></li>
-                <li><a class="nav-link" id="a_resume" href="resume.html">Currículo</a></li>
+                <li><a class="nav-link" id="a_portfolio" href="#"><b>Portfolio</b></a></li>
+                <li><a class="nav-link" id="a_resume" href="resume.html">About me</a></li>
             </ul>
 
             <label class="navbar-toggler" for="toggle">
@@ -44,10 +44,9 @@
                 <span class="bar"></span>
             </label>
             <ul translate="no" class="nav-mobile">
-                <li class="nav-item"><a class="nav-link" id="a_home" href="index.html"><b>Home</b></a></li>
-                <li class="nav-item"><a class="nav-link" id="a_portfolio" href="portfolio.html">Portfolio</a>
+                <li class="nav-item"><a class="nav-link" id="a_portfolio" href="#"><b>Portfolio</b></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" id="a_resume" href="resume.html">Currículo</a>
+                <li class="nav-item"><a class="nav-link" id="a_resume" href="resume.html">About me</a>
                 </li>
             </ul>
         </nav>
@@ -55,27 +54,164 @@
 
 
     <main>
-        <section class="banner">
-            <img  class="nick-banner" src="assets/BANNERS/nickgif.gif" alt="banner">
-        </section>
         <section class="about">
-            <img class="img-project" src="assets/Foxy 1.png" alt="">
-            <div class="desc">
-                <div>
-                    <h2>Nicolas Abadia Pinheiro</h2>
-                    <h3> ILUSTRADOR | DESIGNER GRÁFICO </h3>
-                    <p>Sou formado em Design Gráfico pelo SENAI Theobaldo De Nigris e possuo Certificação Profissional Adobe. Busco oportunidades de participar e desenvolver projetos criativos, utilizando a comunicação visual para resolver problemas. Sou um profissional proativo e colaborativo. Meu objetivo é atuar como ilustrador e artista conceitual em projetos de animação e jogos, criando ilustrações, personagens e histórias.</p>
+            <img src="assets/Foxy 1.png" alt="">
+            <div>
+                <h2 id="me">Nicolas Abadia Pinheiro</h2>
+                <h3> ILUSTRADOR | DESIGNER GRÁFICO</h3>
+                <span class="email">nicolasabadia.contato@gmail.com</span>
+            </div>
+    </section>
+        <nav>
+            <ul class="nav-port">
+                <li><a class="nav-link" id="a_portfolio" href="index.html"><b>ILLUSTRATION & CONCEPT ART</b></a></li>
+                <li><a class="nav-link" id="a_resume" href="graphicdesign.html">BRANDING, PACKING & EDITORIAL</a></li>
+                <li><a class="nav-link" id="a_resume" href="video.html">VIDEO & MOTION GRAPHICS</a></li>
+            </ul>
+        </nav>
+        
+       <section class="projects">
+            <div class="container">
+                <div class="box">
+                    <div class="column">
+                        <div class="image" ><img id="snap" src="assets/BANNERS/Illustration.png" alt=""></div>
+                        <div class="image" ><img id="thor" src="assets/ALLWORKS/THOR5.jpg" alt=""></div>
+                        <div class="image" ><img  id="alive" src="assets/ALLWORKS/ALIVE2.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/pedr2.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Screenshot_20230530-054259_OneDrive.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Kakamora Concept.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/002.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/busto04.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/WOLF.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Piku.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/10.png" alt=""></div>
+                        <div class="image">
+                            <div class="image"><img src="assets/ALLWORKS/BAO01.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="popup-img" id="snap">
+                        <div>
+                            <span>&times;</span>
+                            <div class="popup-desc">
+                                <h2>Ulysses Klaue - Marvel SNAP Fanart
+                                </h2>
+                                <p>Card Game Illustration</p>
+                                <p>2024</p>
+                                <p><b>Software:</b> Clip Studio Paint</p>
+                            </div>
+                            <img src="assets/ALLWORKS/P4.png" alt="">
+                            
+                            <img src="assets/ALLWORKS/P2.png" alt="">
+                            <img src="assets/ALLWORKS/P1.png" alt="">
+                            <img src="assets/ALLWORKS/Ulysses Snap.png" alt="">
+                            <video controls autoplay loop  src="assets/ALLWORKS/Ulysses Snap.mp4"></video>
+                        </div>
+                    </div>
+                    <div class="popup-img" id="thor">
+                        <div>
+                            <span>&times;</span>
+                            <div class="popup-desc">
+                                <h2>Thor Dog</h2>
+                                <p>Illustation Commission</p>
+                                <p>2023</p>
+                                <p><b>Software:</b> Autodesk Sketchbook</p>
+                            </div>
+                            <img src="assets/ALLWORKS/THOR5.jpg" alt="">
+                            
+                            <img src="assets/ALLWORKS/THOR4.png" alt="">
+                            <img src="assets/ALLWORKS/THOR6.png" alt="">
+                            <img src="assets/ALLWORKS/THOR7.png" alt="">
+                        </div>
+                    </div>
+                    <div class="popup-img" id="alive">
+                        <div>
+                            <span>&times;</span>
+                            <div class="popup-desc">
+                                <h2>Alive</h2>
+                                <p>Color Study</p>
+                                <p>2023</p>
+                                <p><b>Software:</b> Clip Studio Paint</p>
+                                
+                            </div>
+                            <img src="assets/ALLWORKS/ALIVE2.jpg" alt="">
+                            <video controls autoplay loop  src="assets/ALLWORKS/ALIVE2 (1).mp4"></video>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="image"><img id="robofll" src="assets/ALLWORKS/ROBOFLL (1).jpg" alt=""></div>
+                        <div class="image"><img id="coelho" src="assets/ALLWORKS/Habbits Modelsheet.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/xiaoling2.png" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Screenshot_20230530-054313_OneDrive.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Rabbit New Year Posts2.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/busto02.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/busto05.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Minecraft Globe Room - Estudo de Perspectiva-1.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Sem Título-3.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Color.png" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/RUKANGRAYSCALE.png" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Concept do Leopardo das Neves.png" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/nicolas-abadia-pinheiro-shenlong-1-0.jpg" alt=""></div>
+                    </div>
+                    <div class="popup-img" id="robofll">
+                        <div>
+                            <span>&times;</span>
+                            <div class="popup-desc">
+                                <h2>Tatu Robot Concept Art</h2>
+                                <p>Arte Conceitual de mascote para a equipe de robótica Tatubóticos da escola SESI 434 Tatuapé</p>
+                                <p>2023</p>
+                                <p><b>Softwares:</b> Clip Studio Paint & Blender</p>
+                            </div>
+                            <img src="assets/ALLWORKS/ROBOFLL (1).jpg" alt="">
+                            <img src="assets/ALLWORKS/0023.jpg" alt="">
+                            <video controls autoplay loop src="assets/ALLWORKS/0001-0250.mp4"></video>
+                            <img src="assets/ALLWORKS/MOCKUPTATU (1).jpg" alt="">
+                            <p>Design da Camisa da Equipe Tatubóticos 2023</p>
+                        </div>
+                    </div>
+                    <div class="popup-img" id="coelho">
+                        <div>
+                            <span>&times;</span>
+                            <div class="popup-desc">
+                                <h2>Year of the Rabbit Character Concept Art</h2>
+                                <p>Concept Art</p>
+                                <p>2023</p>
+                                <p><b>Software:</b> Photoshop</p>
+                                
+                            </div>
+                            <img src="assets/ALLWORKS/Habbits Modelsheet.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="image"><img id="posa" src="assets/ALLWORKS/POSA5.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Hunter Thumb.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Mitsuri3.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Screenshot_20230530-054327_OneDrive.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Monkey D Luffy.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/busto03.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Foxy.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Sala do Caçador - Estudo de Perspectiva 01.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Macaco de Escritório Remakepng2.jpg" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/925542.png" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/GOGIMATILU Render Study.png" alt=""></div>
+                        <div class="image"><img src="assets/ALLWORKS/Frog Mage.png" alt=""></div>
+                    </div>
+                    <div class="popup-img" id="posa">
+                        <div>
+                            <span>&times;</span>
+                            <div class="popup-desc">
+                                <h2>Fox Icon</h2>
+                                <p>Ícone</p>
+                                <p>2023</p>
+                                <p><b>Software:</b> Autodesk Sketchbook</p>
+                                
+                            </div>
+                            <img src="assets/ALLWORKS/POSA5.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <section class="works">
-            <a href="portfolio.html" class="ic-works"><div class="a-all-works"><p >ILLUSTRATION & CONCEPT ART</p></div></a>
-            <div class="works-categories">
-                
-                <a href="graphicdesign.html" class="gd-works"><div class="a-all-works"><p >BRANDING, PACKING & EDITORIAL</p></div></a>
-                <a href="video.html" class="vm-works"><div class="a-all-works"><p >VIDEO & MOTION Design</p></div></a>
-            </div>
-        </section>
+            
+       </section>
     </main>
     <footer>
         <h2>CONTATO</h2>
@@ -88,6 +224,8 @@
         </div>
         <span class="credits">Por Nicolas Abadia Pinheiro</span>
     </footer>
+
+    <script src="javascript/script.js"></script>
 </body>
 
 </html>

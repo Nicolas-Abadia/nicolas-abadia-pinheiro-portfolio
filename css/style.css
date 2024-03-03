@@ -655,6 +655,7 @@ footer span {
     justify-content: center;
     align-items: center;
     gap: 75px;
+    margin-top: -35px;
 
 }
 
@@ -722,6 +723,7 @@ footer span {
     .about {
         padding: 0px 25px;
         gap: 95px;
+        text-align: center;
     }
 
     .nav-link {
