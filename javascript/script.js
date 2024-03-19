@@ -22,3 +22,7 @@ document.querySelectorAll('.popup-img span').forEach(span => {
         document.querySelector('body').style.overflow = 'auto';
     }
 });
+
+document.oncontextmenu = document.body.oncontextmenu = function() {
+    return false;
+};
