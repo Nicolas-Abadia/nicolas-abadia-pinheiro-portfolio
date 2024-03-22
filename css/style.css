@@ -723,9 +723,10 @@ footer span {
 @media (max-width: 972px) {
 
     .social2 {
-        width: 100%;
         transform: scale(1.5);
         margin-top: 20px;
+        margin-left: 50%;
+        translate: -120px;
     }
 
     h2{
