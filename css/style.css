@@ -208,11 +208,11 @@ input:checked~header .navbar-toggler .bar:nth-child(3) {
 }
 
 .img-project {
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 .project-imgs {
-    border-radius: 16px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     grid-auto-flow: column;
@@ -440,7 +440,7 @@ img {
 
 video {
     width: 100%;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .video_project {
