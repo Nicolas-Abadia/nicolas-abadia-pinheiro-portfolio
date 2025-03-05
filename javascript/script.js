@@ -23,6 +23,6 @@ document.querySelectorAll('.popup-img span').forEach(span => {
     }
 });
 
-document.oncontextmenu = document.body.oncontextmenu = function() {
+/*document.oncontextmenu = document.body.oncontextmenu = function() {
     return false;
-};
+};*/
